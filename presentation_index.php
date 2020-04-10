@@ -5,4 +5,5 @@ echo "<pre>";
   $var = @$_GET['q'] ;
   $trimmed = trim($var); //trim whitespace from the stored variable
 
-  
+  $files = glob("./*.txt");
+?>
